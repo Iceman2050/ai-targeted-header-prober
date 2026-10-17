@@ -1,3 +1,10 @@
+> **ARCHIVED — merged into [header-hunter](https://github.com/Iceman2050/header-hunter).**
+>
+> The Signals Corps angle (AI-directive header names, AI-suggestive name
+> fragments, hidden-payload patterns) now lives in header-hunter's analyzer,
+> with its README section and tests. This repo is read-only; please use
+> header-hunter instead.
+
 # ai-targeted-header-prober
 
 **Your site's HTTP headers may be talking to AI agents behind your back.**
