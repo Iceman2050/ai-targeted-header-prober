@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-targeted-header-prober"
+version = "1.0.0"
+description = "Audit HTTP response headers for AI-targeted directives and hidden prompt-injection payloads (stdlib only)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+ai-targeted-header-prober = "ai_targeted_header_prober:main"
+
+[tool.setuptools]
+py-modules = ["ai_targeted_header_prober"]
